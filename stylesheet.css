@@ -24,3 +24,7 @@ div:hover{
 	border: black 1px solid;
 	padding: 1px;
 }
+img{
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+}
