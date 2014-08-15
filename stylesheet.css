@@ -7,9 +7,6 @@ td div{
 	display: inline-block;
 	background-color: #00c957;
 	padding: 2px;
-	<!--opacity: .75;-->
-	<!--filter: alpha(opacity=75);-->
-	<!---moz-opacity: .75;-->
 }
 .non-semantic{
 	background-color: #cc0000;
