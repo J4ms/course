@@ -1,18 +1,39 @@
+body{
+	background-color: #474747;
+}
+div#side{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	height: 100%;
+	width: 200px;
+	background-color: #282828;
+	border-top-right-radius: 10px;
+}
+div#content{
+	position: absolute;
+	left: 245px;
+	margin: 25px 250px 25px 25px;
+	background-color: #eeeeee;
+	padding: 0px 10px 35px 10px;
+	border-radius: 10px;
+}
 thead td{
 	border-bottom: black 2px solid;
 	padding: 1.5px;
 }
 td div{
-	border-radius: 5px;
 	display: inline-block;
 	background-color: #00c957;
 	padding: 2px;
+	border-radius: 5px;
 }
-.non-semantic{
+div.non-semantic{
 	background-color: #cc0000;
 }
-div:hover{
-	background-color: white;
+td div:hover{
+	background-color: #eeeeee;
 	border: black 0px solid;
 	border-radius: 0px;
 	border-bottom: black 1.5px solid;
@@ -20,7 +41,7 @@ div:hover{
 	margin-bottom: 6px;
 }
 .blockdisplay{
-	background-color: white;
+	background-color: #eeeeee;
 	border: black 1px solid;
 	padding: 1px;
 }
