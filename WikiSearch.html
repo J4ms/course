@@ -8,18 +8,19 @@
 <body>
 	<div id="side"></div>
 	<div id="content">
+		<h1>Die Wikipedia-Suchmaschiene</h1>
 		<form action="http://de.wikipedia.org/wiki/">
  			<fieldset>
- 			<legend><h3>Die Wikipedia-Suchmaschiene</h3></legend>
- 				<p>Hier bitte Suchbegriffe eingeben</p>
+ 			<legend><h2>Eingaben:</h2></legend>
+ 				<p><label for="search">Hier bitte Suchbegriffe eingeben:</label></p>
 				<input type="text"   name="search" value="" id="text"/><br>
-				<p>Zur Suche eines passenden Artikels:</p>
+				<p><label for="go">Zur Suche eines passenden Artikels:</label></p>
 				<input type="submit" name="go" value="Artikel" id="button"/>
-				<p>Zur Suche nach ähnlichen Artikeln:</p>
+				<p><label for="fulltext">Zur Suche nach ähnlichen Artikeln:</label></p>
 				<input type="submit" name="fulltext" value="Volltext" id="button"/>
 			</fieldset>
 		</form>
-		<h3>Diese Seite ist W3C Valide, sehen sie selbst!</h3>
+		<h2>Diese Seite ist W3C Valide, sehen sie selbst!</h2>
 		<a href="http://validator.w3.org/check?uri=http://jonasn.cloudcontrolled.com/WikiSearch.html"><img src="images/valid-xhtml10.png" alt="W3C XHTML 1.0 Validator"/></a>
 		<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fjonasn.cloudcontrolled.com%2Fstylesheet.css"><img src="images/valid-css-blue.png" alt="W3C CSS (Level 3) Validator"/></a>
 		<a href="http://wave.webaim.org/report#/jonasn.cloudcontrolled.com/WikiSearch.html"><img src="images/wcag2AAA.gif" alt="Wave WCAG Validator"/></a>
