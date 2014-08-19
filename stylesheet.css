@@ -49,3 +49,13 @@ img{
 	margin-left: 7.5px;
 	margin-right: 7.5px;
 }
+fieldset p{
+	margin: 5px 0px 5px 0px;
+}
+fieldset input#button{
+	margin-left: 10px;
+	width: 75px;
+}
+fieldset input#text{
+	margin-left: 10px;
+}
