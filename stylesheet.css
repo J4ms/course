@@ -52,10 +52,10 @@ img{
 fieldset p{
 	margin: 5px 0px 5px 0px;
 }
-fieldset input#button{
+fieldset input.button{
 	margin-left: 10px;
 	width: 75px;
 }
-fieldset input#text{
+fieldset input.text{
 	margin-left: 10px;
 }
